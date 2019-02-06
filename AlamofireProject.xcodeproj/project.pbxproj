@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		69AF4A33220AB7B1009B1E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AF4A32220AB7B1009B1E38 /* AppDelegate.swift */; };
-		69AF4A35220AB7B1009B1E38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AF4A34220AB7B1009B1E38 /* ViewController.swift */; };
 		69AF4A38220AB7B1009B1E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AF4A36220AB7B1009B1E38 /* Main.storyboard */; };
 		69AF4A3A220AB7BD009B1E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69AF4A39220AB7BD009B1E38 /* Assets.xcassets */; };
 		69AF4A3D220AB7BD009B1E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AF4A3B220AB7BD009B1E38 /* LaunchScreen.storyboard */; };
+		69AF4A47220AC3C6009B1E38 /* TicketsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AF4A46220AC3C6009B1E38 /* TicketsListController.swift */; };
+		69AF4A4A220AC4E9009B1E38 /* TicketsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AF4A48220AC4E9009B1E38 /* TicketsCell.swift */; };
+		69AF4A4B220AC4E9009B1E38 /* TicketsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69AF4A49220AC4E9009B1E38 /* TicketsCell.xib */; };
+		C9A418EB2235D5903084AF5B /* Pods_AlamofireProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E2D457886144547F3EA3E8 /* Pods_AlamofireProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19DBD2107B6A3AC1BA824E95 /* Pods-AlamofireProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireProject/Pods-AlamofireProject.debug.xcconfig"; sourceTree = "<group>"; };
+		64E2D457886144547F3EA3E8 /* Pods_AlamofireProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AF4A2F220AB7B1009B1E38 /* AlamofireProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AF4A32220AB7B1009B1E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69AF4A34220AB7B1009B1E38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69AF4A37220AB7B1009B1E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69AF4A39220AB7BD009B1E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69AF4A3C220AB7BD009B1E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69AF4A3E220AB7BE009B1E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69AF4A46220AC3C6009B1E38 /* TicketsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsListController.swift; sourceTree = "<group>"; };
+		69AF4A48220AC4E9009B1E38 /* TicketsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsCell.swift; sourceTree = "<group>"; };
+		69AF4A49220AC4E9009B1E38 /* TicketsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketsCell.xib; sourceTree = "<group>"; };
+		7F744AB9E4DAA2846BBC4DA5 /* Pods-AlamofireProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireProject/Pods-AlamofireProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A418EB2235D5903084AF5B /* Pods_AlamofireProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A5E6CD9B5415EA13B56CD10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64E2D457886144547F3EA3E8 /* Pods_AlamofireProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		219438AD8A286E03D2F66088 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19DBD2107B6A3AC1BA824E95 /* Pods-AlamofireProject.debug.xcconfig */,
+				7F744AB9E4DAA2846BBC4DA5 /* Pods-AlamofireProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		69AF4A26220AB7B1009B1E38 = {
 			isa = PBXGroup;
 			children = (
 				69AF4A31220AB7B1009B1E38 /* AlamofireProject */,
 				69AF4A30220AB7B1009B1E38 /* Products */,
+				219438AD8A286E03D2F66088 /* Pods */,
+				1A5E6CD9B5415EA13B56CD10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				69AF4A32220AB7B1009B1E38 /* AppDelegate.swift */,
-				69AF4A34220AB7B1009B1E38 /* ViewController.swift */,
+				69AF4A46220AC3C6009B1E38 /* TicketsListController.swift */,
+				69AF4A48220AC4E9009B1E38 /* TicketsCell.swift */,
+				69AF4A49220AC4E9009B1E38 /* TicketsCell.xib */,
 				69AF4A36220AB7B1009B1E38 /* Main.storyboard */,
 				69AF4A39220AB7BD009B1E38 /* Assets.xcassets */,
 				69AF4A3B220AB7BD009B1E38 /* LaunchScreen.storyboard */,
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69AF4A41220AB7BE009B1E38 /* Build configuration list for PBXNativeTarget "AlamofireProject" */;
 			buildPhases = (
+				4C10CBDC385C43DE073DDC1F /* [CP] Check Pods Manifest.lock */,
 				69AF4A2B220AB7B1009B1E38 /* Sources */,
 				69AF4A2C220AB7B1009B1E38 /* Frameworks */,
 				69AF4A2D220AB7B1009B1E38 /* Resources */,
+				D7DF44FD64B60263C183E207 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,18 +157,69 @@
 				69AF4A3D220AB7BD009B1E38 /* LaunchScreen.storyboard in Resources */,
 				69AF4A3A220AB7BD009B1E38 /* Assets.xcassets in Resources */,
 				69AF4A38220AB7B1009B1E38 /* Main.storyboard in Resources */,
+				69AF4A4B220AC4E9009B1E38 /* TicketsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C10CBDC385C43DE073DDC1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlamofireProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7DF44FD64B60263C183E207 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireProject/Pods-AlamofireProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireProject/Pods-AlamofireProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		69AF4A2B220AB7B1009B1E38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69AF4A35220AB7B1009B1E38 /* ViewController.swift in Sources */,
 				69AF4A33220AB7B1009B1E38 /* AppDelegate.swift in Sources */,
+				69AF4A47220AC3C6009B1E38 /* TicketsListController.swift in Sources */,
+				69AF4A4A220AC4E9009B1E38 /* TicketsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +363,7 @@
 		};
 		69AF4A42220AB7BE009B1E38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DBD2107B6A3AC1BA824E95 /* Pods-AlamofireProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +382,7 @@
 		};
 		69AF4A43220AB7BE009B1E38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F744AB9E4DAA2846BBC4DA5 /* Pods-AlamofireProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
